@@ -1,0 +1,46 @@
+﻿@page "/people"
+@using BlazorApp1.Data
+@inject PeopleService PeopleService
+
+<h3>People</h3>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name (C)</th>
+                <th>Balance (F)</th>
+                <th>Full Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.FirstName.</td>
+                    <td>@forecast.LastName</td>
+                    <td>@forecast.AccountBalance</td>
+                    <td>@forecast.FullName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@code {
+    //private WeatherForecast[] forecasts;
+    private PersonModel[] forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await PeopleService.GetPeopleAsync(DateTime.Now);
+    }
+}
