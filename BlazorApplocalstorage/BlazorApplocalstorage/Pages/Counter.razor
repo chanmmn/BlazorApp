@@ -1,0 +1,67 @@
+﻿@page "/counter"
+@*@using BlazorApplocalstorage.Data*
+@inject DataStorage DataStorage*@ 
+@inject Blazored.LocalStorage.ILocalStorageService localStore
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<textarea @bind="noteContent" />
+<p>Read: @noteRead</p>
+<p>Read:</p>
+
+<button @onclick="UpdateLocalStorage">Save</button>
+<button @onclick="ReadLocalStorage">Save</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@*<button class="btn btn-primary" @onclick="InsertData">Insert Data</button>
+<button class="btn btn-primary" @onclick="GetAll">Get all</button>*@
+
+@code {
+    private int currentCount = 0;
+    //DataStorage dataStorage = new DataStorage();
+    //private List<DataObject> lst = new List<DataObject>();
+    //public MemoryCache cache = MemoryCache.Default;
+
+    const string noteKey = "note";
+    string noteContent;
+    string noteRead;
+
+    //public void SaveData()
+    //{
+    //    DataObject data = new DataObject();
+    //    CacheItemPolicy itemPolicy = new CacheItemPolicy();
+    //    cache.Add(data.Id, data, itemPolicy);
+    //}
+
+    public async Task UpdateLocalStorage()
+    {
+        await localStore.SetItemAsync(noteKey, noteContent);
+    }
+
+    public async Task ReadLocalStorage()
+    {
+        noteRead = await localStore.GetItemAsync<string>(noteKey);
+    }
+
+    //private void InsertData()
+    //{
+    //    DataObject data = new DataObject();
+    //    data.Id = currentCount.ToString();
+    //    data.Name = "SameName";
+    //    dataStorage.SaveData(data);
+    //}
+
+    //public void GetAll()
+    //{
+    //    lst = dataStorage.GetAll();
+    //    foreach (var data in lst)
+    //    {
+    //        Console.WriteLine(data.Name);
+    //    }        
+    //}
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
