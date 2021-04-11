@@ -1,0 +1,57 @@
+﻿@page "/counter"
+@using System.Net.Http.Headers;
+@using BlazorServerCallWebApi.Data; 
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<p>Customer Name: @custom.CustomerName</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="OnData">Get Data</button>
+
+@code {
+    private int currentCount = 0;
+    private const string URL = "http://localhost:49841/api/values/";
+    private Customer custom = new Customer();
+    string strg = "";
+
+    private void IncrementCount()
+    {
+        currentCount++;
+
+    }
+
+    private async Task OnData()
+    {
+        //string str = await GetData(1);
+        //strg = str;
+        List<Customer> lst = new List<Customer>();
+        var custom1 = await GetData(1);
+        foreach (var tempdata in custom1)
+        {
+            //Console.WriteLine(tempdata.CustomerCode);
+            //Console.WriteLine(tempdata.CustomerName);
+            lst.Add(tempdata);
+        }
+
+        //return str;
+    }
+
+    //public async Task<Customer> GetData(int dummy)
+    public async Task<IEnumerable<Customer>> GetData(int dummy)
+
+    {
+        HttpClient client = new HttpClient();
+        client.BaseAddress = new Uri(URL);
+        //DataObject data = new DataObject();
+        string strres = "";
+        client.DefaultRequestHeaders.Accept.Add(
+        new MediaTypeWithQualityHeaderValue("application/json"));
+        Customer custom = new Customer();
+        HttpResponseMessage response = await client.GetAsync(URL);
+        //Customer data = await response.Content.ReadAsAsync<Customer>();
+        var data = await response.Content.ReadAsAsync<IEnumerable<Customer>>();
+        return data;
+    }
+}
