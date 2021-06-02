@@ -1,0 +1,85 @@
+﻿@page "/productmd"
+@using BlazorCRUDList.Data
+
+<h3>Product</h3>
+
+@if (list == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @*<p>Product Name: @productName</p>*@
+    <p>Product Name: <input @bind="productName" /></p>
+    @*<p>Product Name: @unitPrice</p>*@
+    <p>Unit Price: <input @bind="unitPrice" /></p>
+
+    <button class="btn btn-primary" @onclick="AddProduct">Add</button>
+    <button class="btn btn-primary" @onclick="SaveProduct">Save</button>
+    <button class="btn btn-primary" @onclick="DeleteProduct">Delete</button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Unit Price (C)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in list)
+            {
+                <tr>
+                    <td>@product.ProductName.</td>
+                    <td>@product.UnitPrice</td>
+                    @*<input @bind="unitPrice" />*@
+                    <td><input type="button" class="btn btn-primary" @onclick="(() => PrepareForEdit(product))" data-toggle="modal" data-target="#taskModal" value="Edit" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private ProductModel[] productModels;
+    private List<ProductModel> list = new List<ProductModel>();
+    private float unitPrice { get; set; }
+    private string productName { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        list = new List<ProductModel>()
+            {
+                new ProductModel{ProductName="Chai", UnitPrice="1" },
+                new ProductModel{ProductName="Aniseed Syrup", UnitPrice="2" },
+                new ProductModel{ProductName="Chang", UnitPrice = "3"}
+            };
+    }
+
+    private void PrepareForEdit(ProductModel task)
+    {
+        productName = task.ProductName;
+        unitPrice = float.Parse(task.UnitPrice);
+    }
+
+    private void AddProduct()
+    {
+        ProductModel product = new ProductModel();
+        product.ProductName= productName;
+        product.UnitPrice = unitPrice.ToString();
+        list.Add(product);
+    }
+
+    private void SaveProduct()
+    {
+        var result = from r in list where r.ProductName == productName select r;
+        result.First().UnitPrice = unitPrice.ToString();
+    }
+
+    private void DeleteProduct()
+    {
+        ///int pid = int.Parse(txtProductID.Text);
+        var result = from r in list where r.ProductName == productName select r;
+        list.Remove(result.First());
+    }
+}
