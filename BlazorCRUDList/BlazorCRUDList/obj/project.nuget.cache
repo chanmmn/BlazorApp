@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SYOzUPO4vjBXEGOIDXR+PqWpmFy369s6j93v8vVX3a7AZ4VAKLWjUTqFRxT3AQzZIQWKnSJj+N2ye0NRmFjX2Q==",
+  "dgSpecHash": "2ouc6l7HlHhJ+qx4v7MKKX935TACj1MGBKK2x+ELknqAi3vsjbIQbjfwSqEOjtEAZdQJwrSdenUzH5CtE6jYGw==",
   "success": true,
-  "projectFilePath": "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
+  "projectFilePath": "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

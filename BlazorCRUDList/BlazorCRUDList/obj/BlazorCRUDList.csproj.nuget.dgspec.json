@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj": {}
+    "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj": {}
   },
   "projects": {
-    "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj": {
+    "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
+        "projectUniqueName": "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
         "projectName": "BlazorCRUDList",
-        "projectPath": "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
+        "projectPath": "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\BlazorCRUDList.csproj",
         "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-        "outputPath": "D:\\test\\Blazor\\BlazorCRUDList\\BlazorCRUDList\\obj\\",
+        "outputPath": "D:\\git\\BlazorApp\\BlazorCRUDList\\BlazorCRUDList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
