@@ -1,0 +1,60 @@
+﻿@page "/presspress"
+<h3>PressPress</h3>
+
+@*<input type="text" @onkeydown="KeyboardEventHandler " @onkeypress=" KeyboardEventHandler " @onkeyup="KeyboardEventHandler " />*@
+@*<input type="text" @onkeypress=" KeyboardEventHandler " @bind="amount" />*@
+
+<input type="text" @onkeydown="KeyboardEventHandler1" @bind="amount"/>
+
+
+    @*<h4>@KeyPressed </h4>*@
+@*<h4>@EventInfo</h4>*@
+@*<p>@amount</p>*@
+
+@code {
+    string KeyPressed = "";
+    string KeyPressed1 = "";
+    string EventInfo = "";
+    string amount = "";
+    static int i = 0;
+
+    private void KeyboardEventHandler(KeyboardEventArgs args)
+    {
+        KeyPressed = args.Key; //"Key Pressed is " + args.Key;
+        EventInfo = "Event Type " + args.Type;
+        KeyPressed1 = KeyPressed1 + KeyPressed;
+        int db = int.Parse(KeyPressed1);
+        amount = String.Format("{0:n}", db);
+    }
+
+    private void KeyboardEventHandler1(KeyboardEventArgs args)
+    {
+        KeyPressed = args.Key; //"Key Pressed is " + args.Key;
+        EventInfo = "Event Type " + args.Type;
+        double number;
+
+        if (KeyPressed == "Backspace")
+        {
+            if (double.TryParse(amount, out number))
+            {
+                double db = double.Parse(amount);
+                if (db.ToString().Length > 1)
+                {
+                    db = double.Parse(db.ToString().Remove(db.ToString().Length - 1));
+                    amount = String.Format("{0:n}", db);
+                    KeyPressed1 = db.ToString();
+                }
+                else
+                {
+                    KeyPressed1 = "";
+                    }
+            }
+        }
+        else
+        {
+            KeyPressed1 = KeyPressed1 + KeyPressed;
+            double db = int.Parse(KeyPressed1);
+            amount = String.Format("{0:n}", db);
+        }
+    }
+}

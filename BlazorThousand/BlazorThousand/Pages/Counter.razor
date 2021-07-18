@@ -1,0 +1,30 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<p>Amount: @amount</p>
+<input type="text" id="DEMO" data-a-sign="" data-a-dec="," data-a-sep="." class="form-control">
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+    private string amount = "";
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        amount = AmountComma(1000000);
+    }
+
+    private string AmountComma(double amount)
+    {
+        string newamount = "";
+
+        newamount = String.Format("{0:n}", amount);
+
+        return newamount;
+    }
+
+}
