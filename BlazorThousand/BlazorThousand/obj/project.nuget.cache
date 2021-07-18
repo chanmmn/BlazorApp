@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1qDRq5zpc+WlYJK3z0xhcC6oCHCfBOwY1pOJN7OoigwSqTv3U9ShMXbvzmiRuCFQIEpC7DYx+iUknwqrzNv3aw==",
+  "dgSpecHash": "tN0zvs9uSxddlMfM2WNKs2KsaKcBh/WeMHpmHEyt15v+B+5PJ4ndbOylj0IQo4CpNbZ7dM7gOnPMmnb6kib/QA==",
   "success": true,
-  "projectFilePath": "D:\\test\\blazor\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
+  "projectFilePath": "D:\\git\\BlazorApp\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test\\blazor\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
+      "projectUniqueName": "D:\\git\\BlazorApp\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
       "projectName": "BlazorThousand",
-      "projectPath": "D:\\test\\blazor\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
+      "projectPath": "D:\\git\\BlazorApp\\BlazorThousand\\BlazorThousand\\BlazorThousand.csproj",
       "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "D:\\test\\blazor\\BlazorThousand\\BlazorThousand\\obj\\",
+      "outputPath": "D:\\git\\BlazorApp\\BlazorThousand\\BlazorThousand\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
