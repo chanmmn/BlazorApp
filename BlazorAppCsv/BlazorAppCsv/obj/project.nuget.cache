@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D9vkgvmo4phXoMSDz/XUfOMVjl7qrkPtVpAquufDZkj6dWFYRbL9jLrimkLSAWMCaDnhEhszqI7tKcEHhWRq0Q==",
+  "dgSpecHash": "eRpLoSjT3uadXSSvsL6Hztz69noUFH4Dj6XbUSg/rXXh+hIEN/6k4RI0sBZn71k9F2/K9ieMyk5s40BQYBxN1g==",
   "success": true,
-  "projectFilePath": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
+  "projectFilePath": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

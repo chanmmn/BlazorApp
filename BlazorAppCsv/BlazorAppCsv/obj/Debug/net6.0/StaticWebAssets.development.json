@@ -1,8 +1,8 @@
 {
   "ContentRoots": [
-    "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
-    "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-    "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\"
+    "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+    "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+    "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\"
   ],
   "Root": {
     "Children": {

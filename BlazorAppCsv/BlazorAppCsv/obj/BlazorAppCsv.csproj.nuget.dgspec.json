@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj": {}
+    "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj": {}
   },
   "projects": {
-    "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj": {
+    "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
+        "projectUniqueName": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
         "projectName": "BlazorAppCsv",
-        "projectPath": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
+        "projectPath": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\BlazorAppCsv.csproj",
         "packagesPath": "C:\\Users\\chan-mingman\\.nuget\\packages\\",
-        "outputPath": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\",
+        "outputPath": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/n7UCe12KOuJ8ySYfwsVq76QKgfGyrNJsGOgSW2fcxY=",
+  "Hash": "+9Yp6GhU5FUG6iJDSdBXX/KCX5imn+MqdtgnJi1IF28=",
   "Source": "BlazorAppCsv",
   "BasePath": "_content/BlazorAppCsv",
   "Mode": "Default",
@@ -9,17 +9,17 @@
   "DiscoveryPatterns": [
     {
       "Name": "BlazorAppCsv\\wwwroot",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorAppCsv.styles.css",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorAppCsv.styles.css",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "BlazorAppCsv.styles.css",
       "AssetKind": "All",
@@ -30,13 +30,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorAppCsv.styles.css"
+      "OriginalItemSpec": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorAppCsv.styles.css"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorAppCsv.bundle.scp.css",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorAppCsv.bundle.scp.css",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "BlazorAppCsv.bundle.scp.css",
       "AssetKind": "All",
@@ -47,13 +47,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorAppCsv.bundle.scp.css"
+      "OriginalItemSpec": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorAppCsv.bundle.scp.css"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -67,10 +67,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -84,10 +84,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -118,10 +118,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -135,10 +135,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -152,10 +152,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -186,10 +186,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -203,10 +203,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -220,10 +220,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -237,10 +237,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\site.css",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\css\\site.css",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -254,10 +254,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\favicon.ico",
+      "Identity": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\favicon.ico",
       "SourceId": "BlazorAppCsv",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\test\\webapicsv\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
+      "ContentRoot": "C:\\git\\BlazorApp\\BlazorAppCsv\\BlazorAppCsv\\wwwroot\\",
       "BasePath": "_content/BlazorAppCsv",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

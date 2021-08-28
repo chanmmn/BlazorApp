@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorAppCsv
 build_property.RootNamespace = BlazorAppCsv
-build_property.ProjectDir = C:\test\webapicsv\BlazorAppCsv\BlazorAppCsv\
+build_property.ProjectDir = C:\git\BlazorApp\BlazorAppCsv\BlazorAppCsv\
 build_property.RazorLangVersion = 6.0
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\test\webapicsv\BlazorAppCsv\BlazorAppCsv
+build_property.MSBuildProjectDirectory = C:\git\BlazorApp\BlazorAppCsv\BlazorAppCsv
 build_property._RazorSourceGeneratorDebug = 
 build_property._RazorSourceGeneratorHeapDumps = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/App.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Pages/Counter.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Pages/FetchData.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Pages/Index.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Shared/SurveyPrompt.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/_Imports.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Shared/MainLayout.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mz14lt99ka
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Shared/NavMenu.razor]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-lxrde5alb6
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Pages/Error.cshtml]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/test/webapicsv/BlazorAppCsv/BlazorAppCsv/Pages/_Host.cshtml]
+[c:/git/BlazorApp/BlazorAppCsv/BlazorAppCsv/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
