@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazorAppCsv" Path="C:\test\webapicsv\BlazorAppCsv\BlazorAppCsv\obj\Debug\net6.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/BlazorAppCsv" Path="C:\test\webapicsv\BlazorAppCsv\BlazorAppCsv\obj\Debug\net6.0\scopedcss\projectbundle\" />
+</StaticWebAssets>

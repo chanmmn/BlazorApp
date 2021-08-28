@@ -1,0 +1,3 @@
+Id,CustomKeyName,Text,LocalizationCulture,ResourceKey
+1,test,test text,en-US,test
+2,test,test2 öäüéàè text de-CH,de-CH,test
