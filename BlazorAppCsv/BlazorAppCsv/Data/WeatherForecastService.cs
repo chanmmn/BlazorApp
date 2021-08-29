@@ -17,7 +17,7 @@ public class WeatherForecastService
         }).ToArray());
     }
 
-    public async Task SaveCsv()
+    public async Task<string> SaveCsv()
     {
         var url = "https://localhost:44304/api/CsvTest/data.csv";
         var client = new HttpClient();
@@ -29,5 +29,6 @@ public class WeatherForecastService
         {
             await stream.CopyToAsync(fileStream);
         }
+        return "Done";
     }
 }

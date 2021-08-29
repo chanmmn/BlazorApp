@@ -36,10 +36,13 @@ else
     </table>
 }*@
 
+<p role="status">Status: @status</p>
+
 <button class="btn btn-primary" @onclick="SaveCsv">Save Csv</button>
 
 @code {
     private WeatherForecast[]? forecasts;
+    private string status = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -48,7 +51,7 @@ else
 
     private async Task SaveCsv()
     {
-        await ForecastService.SaveCsv();
+        status = await ForecastService.SaveCsv();
     }
    
 }
