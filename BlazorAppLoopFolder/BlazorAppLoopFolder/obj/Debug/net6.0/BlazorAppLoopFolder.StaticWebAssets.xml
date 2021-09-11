@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazorAppLoopFolder" Path="C:\test\other\loopfolder\BlazorAppLoopFolder\BlazorAppLoopFolder\obj\Debug\net6.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/BlazorAppLoopFolder" Path="C:\test\other\loopfolder\BlazorAppLoopFolder\BlazorAppLoopFolder\obj\Debug\net6.0\scopedcss\projectbundle\" />
+</StaticWebAssets>
