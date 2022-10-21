@@ -1,0 +1,71 @@
+﻿@page "/counter"
+@using System.Net.Http.Headers;
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+@*<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>*@
+<button class="btn btn-primary" @onclick="OnData">Click me</button>
+@code {
+
+
+    //private const string URL = "http://localhost:6642/api/values/1";
+    //private const string URL = "http://localhost:54481/weatherforecast";
+    private const string URL = "http://localhost:51111/weatherforecast";
+    private int currentCount = 0;
+    string strg = "";
+
+    private void IncrementCount()
+    {
+        //currentCount++;
+    }
+
+    private async Task OnData()
+    {
+        string str = await GetData(1);
+        strg = str;
+        //return str;
+    }
+
+    public async Task<string> GetData(int dummy)
+    {
+        HttpClient client = new HttpClient();
+        client.BaseAddress = new Uri(URL);
+        //DataObject data = new DataObject();
+        string strres = "";
+        client.DefaultRequestHeaders.Accept.Add(
+        new MediaTypeWithQualityHeaderValue("application/json"));
+
+        //No use
+        //HttpRequestMessage request = new HttpRequestMessage();
+        //request.SetBrowserRequestMode(BrowserRequestMode.Cors);
+        //----------------
+
+        //No use
+        //var request = new HttpRequestMessage()
+        //{
+        //    RequestUri = new Uri(URL),
+        //    Method = HttpMethod.Get,
+        //};
+        //request.Headers.Add("mode", "no-cors");
+        //HttpResponseMessage response = await client.SendAsync(request);
+        //----------------
+
+        // List data response.
+        //HttpResponseMessage response = client.GetAsync(urlParameters).Result;
+        HttpResponseMessage response = await client.GetAsync(URL);
+
+        //if (response.IsSuccessStatusCode)
+        //{
+        //Task<string> task = Task.FromResult(strres);
+        //Console.WriteLine(task.Result.ToString());
+        //}
+        string str = await response.Content.ReadAsStringAsync();
+        ///data = await response.Content.ReadAsAsync<DataObject>();
+
+        return str;
+    }
+}
