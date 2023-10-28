@@ -1,0 +1,12 @@
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\BlazorAppCallWebApi.exe
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\BlazorAppCallWebApi.dll
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\BlazorAppCallWebApi.deps.json
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\BlazorAppCallWebApi.runtimeconfig.json
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\BlazorAppCallWebApi.pdb
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\System.Net.Http.WebRequest.dll
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\System.Net.Http.Extensions.dll
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\System.Net.Http.Formatting.dll
+C:\test\other\BlazorAppCallWebApi\BlazorAppCallWebApi\obj\Release\net7.0\PubTmp\Out\System.Net.Http.Primitives.dll

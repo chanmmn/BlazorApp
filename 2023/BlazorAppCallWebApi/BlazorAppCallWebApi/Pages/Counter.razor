@@ -1,0 +1,37 @@
+﻿@page "/counter"
+@using BlazorAppCallWebApi.Data;
+@using WebMinRouteGroup.Data;
+@inject WeatherForecastService ForecastService
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+<p>@todo1.Title</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="GetTodo">Get Todo</button>
+
+@code {
+    private int currentCount = 0;
+    //private Todo[]? todos;
+    Todo todo1 = new Todo();
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    protected async Task GetTodo()
+    {
+        //var todos = await ForecastService.GetData(1);
+        var todo = await ForecastService.GetData(1);
+        foreach (var item in todo)
+        {
+            //todo = new Todo();
+            todo1.Title = item.Title;
+        }
+    }
+}
+
