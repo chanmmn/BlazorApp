@@ -1,0 +1,78 @@
+﻿@page "/people"
+@using BlazorApp1.Data
+@inject PeopleService PeopleService
+@inject PersonArray PersonArray;
+
+<h3>People</h3>
+
+@if (persons == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name (C)</th>
+                <th>Balance (F)</th>
+                <th>Full Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in persons)
+            {
+                <tr>
+                    <td>@forecast.FirstName.</td>
+                    <td>@forecast.LastName</td>
+                    <td>@forecast.AccountBalance</td>
+                    <td>@forecast.FullName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<button class="btn btn-primary" @onclick="GetPerson">Get Person</button>
+<button class="btn btn-primary" @onclick="GetExtra">Get Additional Person</button>
+
+
+
+@code {
+    //private WeatherForecast[] forecasts;
+    private PersonModel[] persons;
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     // //persons = await PeopleService.GetPeopleAsync(DateTime.Now);
+    //     // PersonArray.person = await PeopleService.GetPeopleAsync(DateTime.Now);
+    //     // persons = PersonArray.person;
+    // }
+    private async Task GetPerson()
+    {
+        //people.Add(newPerson);
+        //PersonArray.person = await PeopleService.GetPeopleAsync(DateTime.Now);
+        persons = await PeopleService.GetPeopleAsync(DateTime.Now);
+        for(int i = 0; i < persons.Count(); i++ )
+        {
+            PersonArray.person[i] = new PersonModel();
+            PersonArray.person[i].FirstName = persons[i].FirstName;
+            PersonArray.person[i].LastName = persons[i].LastName;
+        }
+    }
+
+    private void GetExtra()
+    {
+        //people.Add(newPerson);
+        //PersonArray.person = await PeopleService.GetPeopleAsync(DateTime.Now);
+        persons = new PersonModel[3];
+        int result = PersonArray.person.Count(s => s != null);
+        for (int i = 0; i < result; i++)
+        {
+            persons[i] = new PersonModel();
+            persons[i].FirstName = PersonArray.person[i].FirstName;
+            persons[i].LastName = PersonArray.person[i].LastName;
+        }
+        //persons = PersonArray.person;
+    }
+}

@@ -1,0 +1,32 @@
+﻿@page "/Addperson"
+@using BlazorApp1.Data
+@inject PersonArray PersonArray;
+
+<h3>AddPersonrazor</h3>
+
+<h3>Add a new person</h3>
+<form>
+    <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" class="form-control" id="firstName" @bind="newPerson.FirstName" />
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="form-control" id="lastName" @bind="newPerson.LastName" />
+    </div>
+    <button type="submit" class="btn btn-primary" @onclick="AddPerson">Add Person</button>
+</form>
+
+
+@code {
+    private PersonModel newPerson = new PersonModel();
+
+    private void AddPerson()
+    {
+        //people.Add(newPerson);
+        PersonArray.person[2] = new PersonModel();
+        PersonArray.person[2].FirstName = newPerson.FirstName;
+        PersonArray.person[2].LastName = newPerson.LastName;
+        newPerson = new PersonModel();
+    }
+}
